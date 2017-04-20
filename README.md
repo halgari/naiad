@@ -4,7 +4,7 @@ A library for building declarative data flow graphs via a fluent api and core.as
 
 ## Rationale
 ### Premise
-Core.async is simple but not easy. That is to say, it is possible to write simple maintainable using core.async but it
+Core.async is simple but not easy. That is to say, it is possible to write simple maintainable code using core.async but it
 is not a easy task. Often users want to deal with core.async channels in a way that mirrors lazy seqs but are somewhat
 hindered by the congitive overhead of using abstractions just as `async/mult` and `async/pub`. Naiad attempts to abstract
 the construction of data flow graphs in a declarative way. You specify the operations you want to apply to a set of channels,
